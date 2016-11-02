@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="logogap">25dp</dimen>
+    <dimen name="bannertextsize">17sp</dimen>
+    <dimen name="dashboardtextsize">20sp</dimen>
+    <dimen name="universallogosize">200dp</dimen>
+
+    <!-- navigation section dimens -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">180dp</dimen>
+    <dimen name="nav_header_width">290dp</dimen>
+    <dimen name="nav_image_width">75dp</dimen>
+    <dimen name="nav_image_height">75dp</dimen>
+    <dimen name="headerlogogap">10dp</dimen>
+    <dimen name="curve">7dp</dimen>
+    <dimen name="dashboardgap">15dp</dimen>
+    <dimen name="curvedholdermarginside">30dp</dimen>
+    <dimen name="dashboardimagesize">40dp</dimen>
+
+</resources>

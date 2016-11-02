@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">DrivoHelper</string>
+    <string name="map_api_key">AIzaSyAI40wHyaFcxmPU-0Zh1RcPzxcAXR2CKVk</string>
+    
+    <!-- splash screen strings -->
+    <string name="driving">Servicing Your Bike @ Your Fingertips</string>
+
+    <!-- main screen strings -->
+    <string name="navDrivoUrlCheck">Bike Url</string>
+    <string name="navDrivoMap">My Location</string>
+    <string name="navAboutDrivoJoy">About DrivoJoy</string>
+    <string name="drivocontact">support@drivojoy.com</string>
+    <string name="opendrawer">Open</string>
+    <string name="closedrawer">Close</string>
+    <string name="doorstep">Doorstep Service</string>
+    <string name="transparency">Transparency</string>
+    <string name="trustedmech">Trusted Mechanics</string>
+    <string name="servicing">DOORSTEP TWO WHEELER SERVICING</string>
+    
+    <!-- details screen strings -->
+    <string name="search">Search your bike</string>
+    <string name="go">GO</string>
+    <string name="oilbrandprice">Oil Brands &amp; Price</string>
+
+    <!-- map screen strings -->
+
+    <!-- about -->
+    <string name="aboutus">Your vehicle problems not only interfere with your time and peace of mind, but often dig a hole in your pocket as well. As a solution to this problem, we started DrivoJoy in March of 2015 with the vision of empowering people with an affordable, convenient, and transparent approach to auto repair and maintenance. No negotiating, no trips to the service center, no surprises and what\'s more – we perform all services right at your doorstep</string>
+
+</resources>

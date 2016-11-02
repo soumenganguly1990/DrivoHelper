@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/drivoToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/frmDrivoHolder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!-- 0th kenburns effect -->
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/drivoback" />
+
+        <!-- 1st, shadow(alpha effect) -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/drivocoloralpha"/>
+
+        <!-- 2nd element, some company details -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/curvedholder"
+            android:padding="@dimen/dashboardgap"
+            android:layout_marginLeft="@dimen/curvedholdermarginside"
+            android:layout_marginRight="@dimen/curvedholdermarginside">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/servicing"
+                android:textSize="@dimen/dashboardtextsize"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@android:color/white"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/dashboardgap">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="@dimen/dashboardimagesize"
+                    android:layout_height="@dimen/dashboardimagesize"
+                    app:civ_fill_color="@android:color/white"
+                    android:src="@drawable/doorstep"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:text="@string/doorstep"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dashboardtextsize"
+                    android:layout_marginLeft="@dimen/dashboardgap"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/dashboardgap">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="@dimen/dashboardimagesize"
+                    android:layout_height="@dimen/dashboardimagesize"
+                    app:civ_fill_color="@android:color/white"
+                    android:src="@drawable/transparency"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:text="@string/transparency"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dashboardtextsize"
+                    android:layout_marginLeft="@dimen/dashboardgap"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/dashboardgap">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="@dimen/dashboardimagesize"
+                    android:layout_height="@dimen/dashboardimagesize"
+                    app:civ_fill_color="@android:color/white"
+                    android:src="@drawable/trustedmechanic"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:text="@string/trustedmech"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dashboardtextsize"
+                    android:layout_marginLeft="@dimen/dashboardgap"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>

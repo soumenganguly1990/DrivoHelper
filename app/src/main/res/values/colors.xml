@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Style colors -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#317751</color>
+
+    <!-- Other colors -->
+    <color name="alphawhite">#55FFFFFF</color>
+    <color name="morealphawhite">#33FFFFFF</color>
+    <color name="alphablack">#33000000</color>
+    <color name="drivocolor">#315155</color>
+    <color name="drivolighteralpha">#DD315155</color>
+    <color name="drivocoloralpha">#BB315155</color>
+    <color name="drivolightest">#99315155</color>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navBike"
+            android:icon="@drawable/ic_bike"
+            android:title="@string/navDrivoUrlCheck" />
+        <item
+            android:id="@+id/navLocation"
+            android:icon="@drawable/ic_marker"
+            android:title="@string/navDrivoMap" />
+    </group>
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/navAboutDrivojoy"
+                android:title="@string/navAboutDrivoJoy" />
+        </menu>
+    </item>
+</menu><!-- From: file:/D:/Android/PushAndroid/DrivoHelper/app/src/main/res/menu/main_menu.xml -->

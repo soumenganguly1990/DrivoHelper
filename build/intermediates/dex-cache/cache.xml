@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\OFFICE_PROJECTS\DrivoHelper\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
+        <dex dex="D:\OFFICE_PROJECTS\DrivoHelper\app\build\intermediates\pre-dexed\debug\classes-6cc4f0ac62e788a1eb9c26dc1e9294ec8a5896c3.jar" />
+    </item>
+    <item
+        jar="D:\OFFICE_PROJECTS\DrivoHelper\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
+        <dex dex="D:\OFFICE_PROJECTS\DrivoHelper\app\build\intermediates\pre-dexed\debug\classes-3b8a649fe6d2afa9d63c563cee4777b88f2d4f84.jar" />
+    </item>
+    <item
+        jar="D:\OFFICE_PROJECTS\DrivoHelper\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6d9ed9a288364688e7fcf6704776284dac1eb42e">
+        <dex dex="D:\OFFICE_PROJECTS\DrivoHelper\app\build\intermediates\pre-dexed\debug\classes-74150b4422876b0e446f8a20f465d9b4d4fe9b9f.jar" />
+    </item>
+    <item
+        jar="D:\OFFICE_PROJECTS\DrivoHelper\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="77f9593d979f4347344be233bd0d888315f79517">
+        <dex dex="D:\OFFICE_PROJECTS\DrivoHelper\app\build\intermediates\pre-dexed\debug\classes-1ca3065d8257c2b3f5258ee12b22872646e3786e.jar" />
+    </item>
+
+</items>
